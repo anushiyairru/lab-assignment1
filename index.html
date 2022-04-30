@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Resume</title>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("idnavbar");
+                if (x.className.indexOf("w3-show") == -1){
+                    x.className += " w3-show";  
+                } else{
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+   <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    #orange
+      {
+        background-color: orange;
+      }
+    </style>
+  
+    </head>
+  
+    <body>
+        <!--desktop mode navigation-->
+        <div class="w3-bar w3-teal w3-hover-light-green w3-hover-text-pink"> 
+            <a href="#profile" class="w3-bar-item w3-button w3-hide-small w3-left">Profile</a>
+            <a href="#education" class="w3-bar-item w3-button w3-hide-small w3-left">Educations</a>
+            <a href="#workexperience" class="w3-bar-item w3-button w3-hide-small w3-left">Experiences</a>
+            <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-left">Skills</a>
+            <a href="#skill" class="w3-bar-item w3-button w3-hide-small w3-left">Projects</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+        <!--phone mode navigation-->
+        <div id="idnavbar"class="w3-bar-block w3-teal w3-hover-light-green w3-hover-text-pink w3-hide w3-hide-large w3-hide-medium"> 
+            <a href="#profile" class="w3-bar-item w3-button w3-center">Profile</a>
+            <a href="#education" class="w3-bar-item w3-button w3-center">Educations</a>
+            <a href="#workexperience" class="w3-bar-item w3-button w3-center">Experiences</a>
+            <a href="#project" class="w3-bar-item w3-button w3-center">Skills</a>
+            <a href="#skill" class="w3-bar-item w3-button w3-center">Projects</a>
+       </div>
+        <header class="w3-header w3-container w3-black w3-padding-32 w3-center">
+           <h1 class="w3-xxxxxlarge font-effect-shadow-multiple">RESUME</h1>
+           <h2 class="w3-text-teal" style="text-shadow:1px 1px 0 rgb(136, 199, 215)">A glimpse to my talent</h2>
+        </header>
+        <!--start of profile block-->
+        <div id="profile" class="w3-container w3-row w3-light-grey w3-padding-32">
+            <div class="w3-container w3-third">
+                    <h2><b><u>Profile</u></b></h2>
+                    <img src="profilepic.jpeg" class="w3-circle" style="width:35%">
+            </div>
+            <div class="w3-container w3-twothird">
+                <p><b>a passionate learner in coding and developmentfor web as well as mobile application.still a student with great potential.</b></p>
+                <p><i class="fa fa-briefcase fa-fw w3-large w3-text-teal"></i>Software Engineer</p>
+                <p><i class="fa fa-home fa-fw  w3-large w3-text-teal"></i>Batu Kawan, Penang.</p>
+                <p><i class="fa fa-envelope fa-fw  w3-large w3-text-teal"></i>anushiya0117@gmail.com</p>
+                <p><i class="fa fa-phone fa-fw  w3-large w3-text-teal"></i>+6011-16550117</p>
+                
+            </div>
+        </div>
+  <!--end of profile block-->
+
+  <!--start of education block-->
+
+        <div id="education" class="w3-container w3-row w3-black w3-hover-teal w3-padding-32">
+            <div class="w3-container w3-third">
+                <h2><b><u>Education</u></b></h2>
+                <img src="book.jpg" class="w3-circle" style="width:60%">
+            </div>
+
+            <div class="w3-container w3-twothird">
+                
+                <ul>
+                    <li><b>Undegraduate</b><br><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021-current<br>Bachelor of Science with Honors(Information Technology)<br>Universiti Utara Malaysia,Kedah<p>
+
+                    </p></li>
+                    <li><b>Undegraduate</b><br><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017-2020<br>Diploma in Digital Technology(Networking)<br>Politeknik Ungku Omar,Ipoh<br>CGPA 3.65<p>
+
+                    </p></li>
+                    <li><b>Student</b><br><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013-2014<br>Sijil Pelajaran Malaysia<br>SMK Simpang Ampat<br>4A's 3B's 2C's 1D<p>
+
+                    </p></li>
+                </ul>
+            </div>
+        </div>
+         <!--end of education block-->
+
+           <!--start of work exp block-->
+        <div id="workexperience" class="w3-container w3-row w3-light-grey w3-padding-32">
+            <div class="w3-container w3-third">
+                    <h2><b><u>Work Experiences</u></b></h2>
+                    <img src="catscafe-penguin.gif" style="width:200px;height:200px;">
+            </div>
+            <div class="w3-container w3-twothird">
+                
+                <ul>
+                    <li><b>Intern as Technician</b>
+                        <br><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2018- Mac 2019
+                        <br>Idream Technologies SDN BHD
+                        <br>Learnt how to fix basic hardware issues in both laptop and desktop.
+                        <br>Learnt how to format and reinstall operating system as well.
+                        <br>Learnt the basic cleaning techniques for desktop only.
+                        <p></p></li>
+
+                    <li><b>Part time as Kindergarden Teacher</b><br><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2015- May 2015
+                        <br>Taught students according to the early child education syllabus.
+                        <br>Kept the students active with morning exercises and games.
+                        <br>Made sure the students are well behaved when there was a visitor.
+                        <p></p></li>
+                </ul>
+            </div>
+        </div>
+        <!--end of pwork exp block-->
+
+
+
+
+
+     <!--start of project block-->
+     <div id="project" class="w3-container w3-row w3-black w3-hover-teal w3-padding-32">
+        <div class="w3-container w3-third">
+                <h2><b><u>Project</u></b></h2>
+                <ul>
+                    <li><b>Past Projects</b>
+                        <br>Diploma FYP Coin Box IOT project
+                        <br>Degree Sem 1 Programming project(pet care centre)
+                        <br>Degree Sem 3 database project(sintok student management system)
+                        <br>upcoming own fire drill app project
+                        <p></p></li>
+
+                </ul>
+        </div>
+        <div class="w3-container w3-twothird w3-row">
+          
+                <div class="column w3-display-container w3-text-black">
+                  <img src="diplomafyp.jpg" class="w3-border w3-image" style="padding:4px;width:50%">
+                  <div class="w3-display-bottomleft w3-container"><p><b>Coin Box IOT</b></p><p>
+                  </p>
+                </div>
+                </div>
+
+                <div class="column w3-display-container w3-text-black">
+                    <img src="sem1project.jpg" class="w3-border w3-image" style="padding:4px;width:50%">
+                    <div class="w3-display-bottomleft w3-container"><p><b>Pet Care Centre</b></p><p>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="column w3-display-container w3-text-black">
+                    <img src="sem3project.jpg" class="w3-border w3-image" style="padding:4px;width:50%">
+                    <div class="w3-display-bottomleft w3-container"><p><b>sintok student management system</b></p><p>
+                    </p>
+                  </div>
+                </div>
+                <div class="column w3-display-container w3-text-black">
+                    <img src="upcomingproject.jpg" class="w3-border w3-image" style="padding:4px;width:50%">
+                    <div class="w3-display-bottomleft w3-container"><p><b>fire drill app</b></p><p>
+                    </p>
+                  </div>
+                </div>
+        </div>
+     </div>  
+     <!--end of eproject block-->
+  
+
+         <!--start of skills  block-->
+         <div id="skill" class="w3-container w3-row w3-light-grey w3-padding-32">
+            <div class="w3-container ">
+                <span class="w3-tag w3-spin w3-xlarge w3-teal">
+                    Skills
+                    </span>
+                      <br>
+                      <br> 
+                      <br>
+                    
+            </div>
+            <div class="w3-container w3-responsive">
+                <table class="w3-table" style="width:100%">
+                    <tr>
+                      <th>All Microsoft</th>
+                      <th>Editing</th>
+                      <th>Java</th>
+                      <th>C++</th>
+                      <th>Networking</th>
+                      <th>Web Development</th>
+                    </tr>
+
+                    <tr class="w3-text-orange">
+                      <td id="orange">dff </td>
+                      <td></td>
+                      <td></td>
+                      <td ></td>
+                      <td ></td>
+                      <td></td>
+                    </tr>
+
+                    <tr class="w3-text-orange">
+                        <td id="orange">dff </td>
+                        <td></td>
+                        <td></td>
+                        <td ></td>
+                        <td id="orange"></td>
+                        <td></td>
+                      </tr>
+
+                      <tr class="w3-text-orange">
+                        <td id="orange">dff </td>
+                        <td ></td>
+                        <td></td>
+                        <td ></td>
+                        <td id="orange"></td>
+                        <td></td>
+                      </tr>
+
+                      <tr class="w3-text-orange">
+                        <td id="orange">dff </td>
+                        <td ></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td></td>
+                      </tr>
+
+                      <tr class="w3-text-orange">
+                        <td id="orange">dff </td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td></td>
+                      </tr>
+
+                      <tr class="w3-text-orange">
+                        <td id="orange">dff </td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                        <td id="orange"></td>
+                      </tr>
+
+                  </table>
+                
+            </div>
+        </div>
+
+         <!--end of skills block-->
+
+       
+         <footer class="w3-container w3-black w3-hover-teal w3-center w3-margin-top" >
+             <p>Stay conected with me!</p>
+             <a href="https://www.facebook.com/anu.hikari" class="fa fa-facebook-official w3-hover-pink"></a>
+             <a href="https://youtube.com/channel/UCXREH-_X8f_3lJ6yz4e2y6A" class="fa fa-youtube-play w3-hover-pink"></a>
+             <a href="https://pin.it/3YY5aq0" class="fa fa-pinterest-p w3-hover-pink"></a>
+            <p>
+                
+            </p>
+         </footer>
+    </body>
+</html>
